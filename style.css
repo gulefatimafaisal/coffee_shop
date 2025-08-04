@@ -276,26 +276,27 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
   header .container {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 20px;
+/*     justify-content: space-between;
+    flex-wrap: wrap; */
   }
-  
-  header .container i {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 10px;
+
+  .logo {
+    order: 1;
   }
-  
+
+  .nav-links {
+    order: 2;
+  }
   .nav-links ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
-    margin-top: 10px;
+/*     margin-top: 10px; */
   }
 
   .hero h1 {
@@ -311,4 +312,5 @@ footer {
     width: 90%;
   }
 }
+
 
