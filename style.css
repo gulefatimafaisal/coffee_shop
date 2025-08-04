@@ -288,14 +288,16 @@ footer {
   }
   
   .logo {
-    margin-right: 10px;         
+    display: flex;
+    align-items: center;
   }
   
   .nav-links ul {
-/*     flex-direction: row; */
+    flex-direction: row;
     flex-wrap: wrap;
 /*     justify-content: center; */
     gap: 12px;
+    align-items: center;
     justify-content: flex-end;
 /*     margin-top: 10px; */
   }
@@ -313,6 +315,7 @@ footer {
     width: 90%;
   }
 }
+
 
 
 
