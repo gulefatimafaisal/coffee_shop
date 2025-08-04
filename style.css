@@ -276,38 +276,26 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
   header .container {
-    display: block;
-    padding: 10px 20px;
-  }
-
-  .header-content {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 10px; 
-  }
-
-  .logo i {
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   
-  .logo {
-    display: flex;
-    align-items: center;
+  header .container i {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
   }
   
   .nav-links ul {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 12px;
     justify-content: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    gap: 12px;
+    margin-top: 10px;
   }
 
   .hero h1 {
@@ -323,8 +311,5 @@ footer {
     width: 90%;
   }
 }
-
-
-
 
 
