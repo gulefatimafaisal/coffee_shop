@@ -276,7 +276,8 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
   header .container {
-    flex-direction: row;
+    display: flex;
+/*     flex-direction: row; */
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -285,6 +286,10 @@ footer {
 
   .logo i {
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px; 
   }
   
   .logo {
@@ -293,13 +298,15 @@ footer {
   }
   
   .nav-links ul {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 /*     justify-content: center; */
     gap: 12px;
     align-items: center;
-    justify-content: flex-end;
+/*     justify-content: flex-end; */
 /*     margin-top: 10px; */
+    margin: 0;
   }
 
   .hero h1 {
@@ -315,6 +322,7 @@ footer {
     width: 90%;
   }
 }
+
 
 
 
