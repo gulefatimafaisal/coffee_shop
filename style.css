@@ -281,7 +281,15 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
+  
+  header .container i {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
   .nav-links ul {
     flex-direction: row;
     flex-wrap: wrap;
@@ -289,7 +297,6 @@ footer {
     gap: 12px;
     margin-top: 10px;
   }
-
 
   .hero h1 {
     font-size: 2rem;
@@ -304,3 +311,4 @@ footer {
     width: 90%;
   }
 }
+
